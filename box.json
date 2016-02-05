@@ -19,10 +19,9 @@
         "Herrera\\Box\\Compactor\\Json",
         "Herrera\\Box\\Compactor\\Php"
     ],
-    "compression": "GZ",
     "git-version": "package_version",
-    "main": "symfony",
-    "output": "symfony.phar",
+    "main": "aw",
+    "output": "aw.phar",
     "stub": true,
     "chmod": "0755"
 }

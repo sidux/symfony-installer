@@ -1,0 +1,5 @@
+Dependencies:
+  -'FOSUserBundle'
+AppKernel:
+  -'JMS\DiExtraBundle\JMSDiExtraBundle()'
+  -'JMS\AopBundle\JMSAopBundle()'

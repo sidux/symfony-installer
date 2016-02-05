@@ -1,4 +1,4 @@
-#!/usr/bin/env php
+#!/usr/bin/env php7
 <?php
 
 if (PHP_VERSION_ID < 50400) {
@@ -30,6 +30,7 @@ $app->add(new Symfony\Installer\AboutCommand($appVersion));
 $app->add(new Symfony\Installer\NewCommand());
 $app->add(new Symfony\Installer\DemoCommand());
 $app->add(new Symfony\Installer\SelfUpdateCommand());
+$app->add(new Symfony\Installer\AddBundleCommand());
 
 $app->setDefaultCommand('about');
 

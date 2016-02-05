@@ -1,0 +1,8 @@
+AppKernel:
+  -JMS\DiExtraBundle\JMSDiExtraBundle()
+  -JMS\AopBundle\JMSAopBundle()
+Composer:
+  -doctrine/doctrine-fixtures-bundle
+Git:
+  repo: git@bitbucket.org:awstudio/awcorebundle.git
+  subtree: true

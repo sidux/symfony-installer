@@ -9,8 +9,7 @@
                 "phpunit",
                 "Tester",
                 "Tests",
-                "tests",
-                "yaml"
+                "tests"
             ],
             "in": "vendor"
         }
@@ -19,6 +18,7 @@
         "Herrera\\Box\\Compactor\\Json",
         "Herrera\\Box\\Compactor\\Php"
     ],
+    "compression": "GZ",
     "git-version": "package_version",
     "main": "aw",
     "output": "aw.phar",

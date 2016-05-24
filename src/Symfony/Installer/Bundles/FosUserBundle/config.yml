@@ -1,5 +1,8 @@
 Dependencies:
-  -'FOSUserBundle'
+  - 'FOSUserBundle'
 AppKernel:
-  -'JMS\DiExtraBundle\JMSDiExtraBundle()'
-  -'JMS\AopBundle\JMSAopBundle()'
+  - 'new JMS\DiExtraBundle\JMSDiExtraBundle()'
+  - 'new JMS\AopBundle\JMSAopBundle()'
+Composer:
+    name: doctrine/doctrine-fixtures-bundle
+    version : "~2.0@dev"

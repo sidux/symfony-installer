@@ -14,7 +14,7 @@ if (PHP_VERSION_ID < 50400) {
     exit(1);
 }
 
-require file_exists(__DIR__.'/vendor/autoload.php')
+require_once file_exists(__DIR__.'/vendor/autoload.php')
     ? __DIR__.'/vendor/autoload.php'
     : __DIR__.'/../../autoload.php';
 
@@ -31,6 +31,7 @@ $app->add(new Symfony\Installer\NewCommand());
 $app->add(new Symfony\Installer\DemoCommand());
 $app->add(new Symfony\Installer\SelfUpdateCommand());
 $app->add(new Symfony\Installer\AddBundleCommand());
+$app->add(new Symfony\Installer\GenerateGMMEntitiesCommand());
 
 $app->setDefaultCommand('about');
 
